@@ -1,4 +1,4 @@
-# Notes
+ Notes
 
 ## Description
 
@@ -57,5 +57,11 @@ TODO:
 # Pomodoro 2 🍅:
 
 - it should return 'b' for input equal to 'a b' ✅ 
-- it should return 'c' for input equal to 'b a c' ✅ 
-- 
+- it should return 'c' for input equal to 'b a c' ✅
+- wordScore:
+  - it should return 1 for input 'aa' 🚧
+
+# Pomodoro 3 🍅:
+
+- wordScore:
+  - it should return 1 for input 'a' ✅

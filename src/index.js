@@ -2,6 +2,10 @@ const letterScore = (letter) => {
   return letter.charCodeAt(0) - 96;
 };
 
+const wordScore = (word) => {
+  return 1;
+};
+
 const high = (string) => {
   const words = string.split(' ');
   const score = [];
@@ -18,5 +22,6 @@ const high = (string) => {
 
 module.exports = {
   letterScore,
+  wordScore,
   high,
 };

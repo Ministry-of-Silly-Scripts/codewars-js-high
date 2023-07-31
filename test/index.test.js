@@ -1,4 +1,4 @@
-const { high, letterScore } = require('../src/index');
+const { high, letterScore, wordScore } = require('../src/index');
 
 describe('the high canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -17,6 +17,12 @@ describe('letterScore', () => {
 
   it('should return 26 for input equal to "z"', () => {
     expect(letterScore('z')).toBe(26);
+  });
+});
+
+describe('wordScore', () => {
+  it('should return 1 for input equal to "a"', () => {
+    expect(wordScore('a')).toBe(1);
   });
 });
 
