@@ -10,6 +10,10 @@ describe('letterScore', () => {
   it('should return 1 for input equal to "a"', () => {
     expect(letterScore('a')).toBe(1);
   });
+
+  it('should return 5 for input equal to "e"', () => {
+    expect(letterScore('e')).toBe(5);
+  });
 });
 
 test('high', () => {

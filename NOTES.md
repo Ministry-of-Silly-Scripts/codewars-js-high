@@ -49,3 +49,4 @@ TODO:
 - perform the 'canary' test just to check if the structure works ✅
 - letterScore:
     - it should return 1 for input equal to 'a' ✅
+    - it should return 5 for input equal to 'e' ✅
