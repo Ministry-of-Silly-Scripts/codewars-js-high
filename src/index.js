@@ -5,9 +5,21 @@ const letterScore = (letter) => {
 const high = (string) => {
   const words = string.split(' ');
 
-  if (words.length > 1) {
+  if (words.length === 2) {
     if (letterScore(words[0]) > letterScore(words[1])) {
       return words[0];
+    }
+
+    return words[1];
+  }
+
+  if (words.length === 3) {
+    if (letterScore(words[0]) > letterScore(words[1])) {
+      if (letterScore(words[0]) > letterScore(words[2])) {
+        return words[0];
+      }
+
+      return words[2];
     }
 
     return words[1];
