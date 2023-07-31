@@ -47,3 +47,5 @@ TODO:
   - update code/test files ✅
 - domain discussion ✅
 - perform the 'canary' test just to check if the structure works ✅
+- letterScore:
+    - it should return 1 for input equal to 'a' ✅
