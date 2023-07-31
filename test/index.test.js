@@ -32,6 +32,10 @@ describe('wordScore', () => {
   it('should return 2 for input equal to "aa"', () => {
     expect(wordScore('aa')).toBe(2);
   });
+
+  it('should return 64 for input equal to "test"', () => {
+    expect(wordScore('test')).toBe(64);
+  });
 });
 
 describe('high', () => {

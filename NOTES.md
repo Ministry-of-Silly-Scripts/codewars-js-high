@@ -67,3 +67,4 @@ TODO:
   - it should return 1 for input 'a' ✅
   - it should return 2 for input 'b' ✅
   - it should return 2 for input 'aa' ✅
+  - it should return 64 for input 'test' ✅
