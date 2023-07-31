@@ -70,3 +70,4 @@ TODO:
   - it should return 64 for input 'test' ✅
 - it should return 'aaa' for input 'aaa b' ✅
 - it should return 'aba' for input 'aba aab' ✅
+- it should return 'taxi' for input 'man i need a taxi up to ubud' ✅

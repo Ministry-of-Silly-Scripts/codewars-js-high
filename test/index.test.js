@@ -58,4 +58,8 @@ describe('high', () => {
   it('should return "aba" for input equal to "aba aab"', () => {
     expect(high('aba aab')).toBe('aba');
   });
+
+  it('should return "taxi" for input equal to "man i need a taxi up to ubud"', () => {
+    expect(high('man i need a taxi up to ubud')).toBe('taxi');
+  });
 });
