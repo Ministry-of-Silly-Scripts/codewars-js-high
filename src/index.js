@@ -15,12 +15,7 @@ const wordScore = (word) => {
 
 const high = (string) => {
   const words = string.split(' ');
-  const score = [];
-
-  for (let i = 0; i < words.length; i += 1) {
-    score.push(wordScore(words[i]));
-  }
-
+  const score = words.map((w) => wordScore(w));
   const maxValue = Math.max(...score);
   const maxIdx = score.indexOf(maxValue);
 
