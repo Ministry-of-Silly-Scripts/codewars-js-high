@@ -3,7 +3,14 @@ const letterScore = (letter) => {
 };
 
 const wordScore = (word) => {
-  return letterScore(word);
+  const chars = word.split('');
+  let score = 0;
+
+  for (let i = 0; i < chars.length; i += 1) {
+    score += letterScore(chars[i]);
+  }
+
+  return score;
 };
 
 const high = (string) => {
