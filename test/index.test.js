@@ -24,4 +24,8 @@ describe('high', () => {
   it('should return "a" for input equal to "a"', () => {
     expect(high('a')).toBe('a');
   });
+
+  it('should return "b" for input equal to "a b"', () => {
+    expect(high('a b')).toBe('b');
+  });
 });
