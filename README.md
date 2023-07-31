@@ -1,8 +1,8 @@
-# XXXXX kata
+# Highest Scoring Word kata
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Highest Scoring Word kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Highest Scoring Word on CodeWars](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272)
 
 ## Prerequisites
 

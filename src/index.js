@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const high = () => true;
 
 module.exports = {
-  placeholder,
+  high,
 };

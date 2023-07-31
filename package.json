@@ -1,7 +1,7 @@
 {
-  "name": "t-b-d",
+  "name": "high",
   "version": "1.0.0",
-  "description": "XXXXXX kata performed by Marcio Silva",
+  "description": "Highest Scoring Word kata performed by Marcio Silva",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Ministry-of-Silly-Scripts/XXXXXX.git"
+    "url": "git@github.com:Ministry-of-Silly-Scripts/codewars-js-high.git"
   },
   "keywords": [],
   "author": "",

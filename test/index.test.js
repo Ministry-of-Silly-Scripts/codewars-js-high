@@ -1,5 +1,5 @@
-const { placeholder } = require('../src/index');
+const { high } = require('../src/index');
 
-test('placeholder', () => {
-  expect(placeholder(0)).toBe(true);
+test('high', () => {
+  expect(high(0)).toBe(true);
 });
