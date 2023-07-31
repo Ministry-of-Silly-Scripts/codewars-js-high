@@ -68,3 +68,4 @@ TODO:
   - it should return 2 for input 'b' ✅
   - it should return 2 for input 'aa' ✅
   - it should return 64 for input 'test' ✅
+- it should return 'aaa' for input 'aaa b' ✅

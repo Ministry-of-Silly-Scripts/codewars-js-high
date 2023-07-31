@@ -18,7 +18,7 @@ const high = (string) => {
   const score = [];
 
   for (let i = 0; i < words.length; i += 1) {
-    score.push(letterScore(words[i]));
+    score.push(wordScore(words[i]));
   }
 
   const maxValue = Math.max(...score);
