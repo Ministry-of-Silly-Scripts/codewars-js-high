@@ -51,3 +51,4 @@ TODO:
     - it should return 1 for input equal to 'a' ✅
     - it should return 5 for input equal to 'e' ✅
     - it should return 26 for input equal to 'z' ✅
+- it should return 'a' for input equal to 'a' ✅

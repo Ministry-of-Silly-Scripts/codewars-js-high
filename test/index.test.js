@@ -20,6 +20,8 @@ describe('letterScore', () => {
   });
 });
 
-test('high', () => {
-  expect(high(0)).toBe(true);
+describe('high', () => {
+  it('should return "a" for input equal to "a"', () => {
+    expect(high('a')).toBe('a');
+  });
 });
