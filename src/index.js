@@ -3,7 +3,7 @@ const letterScore = (letter) => {
 };
 
 const wordScore = (word) => {
-  return 1;
+  return letterScore(word);
 };
 
 const high = (string) => {

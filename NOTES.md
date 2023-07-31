@@ -65,3 +65,4 @@ TODO:
 
 - wordScore:
   - it should return 1 for input 'a' ✅
+  - it should return 2 for input 'b' ✅
