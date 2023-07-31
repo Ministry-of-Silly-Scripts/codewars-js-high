@@ -16,7 +16,18 @@ All letters will be lowercase and all inputs will be valid.
 
 ## Domain
 
+- input: string of words (lowercase letters)
+- output: word 
+
 ### Rules
+
+- each letter of a word scores points according to its position in the alphabet
+    - a = 1
+    - b = 2
+    - c = 3
+    - ...
+- return the highest scoring word (as string)
+- tie: return word that appear earliest
 
 ---
 
@@ -34,3 +45,4 @@ TODO:
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
+- domain discussion ✅
