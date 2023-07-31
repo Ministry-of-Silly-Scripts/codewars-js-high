@@ -4,28 +4,16 @@ const letterScore = (letter) => {
 
 const high = (string) => {
   const words = string.split(' ');
+  const score = [];
 
-  if (words.length === 2) {
-    if (letterScore(words[0]) > letterScore(words[1])) {
-      return words[0];
-    }
-
-    return words[1];
+  for (let i = 0; i < words.length; i += 1) {
+    score.push(letterScore(words[i]));
   }
 
-  if (words.length === 3) {
-    if (letterScore(words[0]) > letterScore(words[1])) {
-      if (letterScore(words[0]) > letterScore(words[2])) {
-        return words[0];
-      }
+  const maxValue = Math.max(...score);
+  const maxIdx = score.indexOf(maxValue);
 
-      return words[2];
-    }
-
-    return words[1];
-  }
-
-  return string;
+  return words[maxIdx];
 };
 
 module.exports = {
